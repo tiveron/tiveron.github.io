@@ -1,0 +1,75 @@
+
+html, body { height: 100%; }
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	text-align: center;
+	line-height: 1.5em;
+}
+
+a {
+	text-decoration: none;
+}
+
+strong {
+	font-weight: bold;
+}
+
+section {
+
+}
+
+/** HOME SECTIONS **/
+
+header {
+	margin-top: 110px;
+}
+
+h1, h2 {
+	font-size: 2.5em;
+	margin-bottom: .5em;
+	font-weight: normal;
+}
+
+h3 {
+	font-size: 1.5em;
+}
+
+#info {
+	margin: 1em auto;
+	width: 60%;
+}
+
+#posts {
+	background: #4cabdb;
+	color: #fff;
+	padding: 40px 0;
+}
+
+
+.posts {
+	width: 60%;
+	margin: 0 auto;
+	text-align: left;
+}
+
+.posts li {
+	margin-bottom: 1.4em;
+}
+
+.posts span {
+	display: block;
+	margin: 0.4em 0;
+	font-weight: bold;
+}
+
+.posts a {
+	font-size: 2em;
+	color: rgb(70, 94, 143);
+	display: block;
+}
+
+.posts a:hover {
+	text-decoration: underline;
+}
