@@ -1,9 +1,17 @@
 ---
 layout: default
 ---
+
 <h2>{{ page.title }}</h2>
 <p class="meta">{{ page.date | date_to_string }}</p>
-
 <div class="post">
 {{ content }}
+
+{% if page.category != "pt-br" %}
+	<a href="/pt-br{{ page.url }}">ver post em português</a>
+{% else %}
+	<a href="{{ page.url | split:"/pt-br" }}">read post in english</a>
+{% endif %}
+
+
 </div>

@@ -1,7 +1,27 @@
-<header>
-	<h1 class="title">
-		<a href="/">
-			{{ site.name }}
-		</a>
-	</h1>
+<header id="header" class="module">
+	<div class="wrapper">
+		<div class="container">
+
+			<div class="icon leftContent">&nbsp;</div>
+      		<div class="rightContent">
+				<h1 class="title">
+					<a href="/">
+						{{ site.name }}
+					</a>
+				</h1>
+				<section id="info">
+					My name is <strong>Thiago Tiveron Fávaro</strong> and I work with web development for more than 10 years. This is my space to write about technology and other stuff.
+				</section>
+				<nav id="links">
+					<ul>
+						<li><a href="{{ site.github }}" class="icon-github">Github</a></li>
+						<li><a href="{{ site.linkedin }}" class="icon-linkedin">Linkedin</a></li>
+						<!-- <li><a href="/jobs" class="icon-code">Jobs</a></li> -->
+						<li><a href="{{ site.twitter }}" class="icon-twitter">Twitter</a></li>
+						<li><a href="mailto:{{ site.email }};" class="icon-mail">Email</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</div>
 </header>
