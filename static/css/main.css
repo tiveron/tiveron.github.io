@@ -521,6 +521,10 @@ footer:before {
   .postsList {
     text-align: center;
   }
+
+  header .title a {
+    font-size: 1.3em;
+  }
 }
 
 /* Small devices (tablets, 768px and up) */
