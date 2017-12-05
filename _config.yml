@@ -1,6 +1,6 @@
 name: Tiveron
 markdown: redcarpet
-pygments: true
+highlighter: rouge
 
 # Personal Details
 name:		Tiveron
