@@ -1,0 +1,31 @@
+header {
+
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: baseline;
+
+    h1 {
+        flex-grow: 3;
+        font-family: 'Fredoka One', cursive;    
+        color: rgb(99, 89, 148);        
+    }
+
+    span {
+        color: rgb(63, 161, 241);
+    }
+
+    nav {
+        flex-grow: 1;
+    }
+
+    ul {
+        display: flex;
+        flex-flow: row nowrap;
+    }
+
+    li {
+        justify-content: flex-end;
+        flex-grow: 1;   
+    }
+
+}

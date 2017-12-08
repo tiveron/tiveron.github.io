@@ -1,0 +1,30 @@
+.empty-state {
+
+    display: block;
+    width: 30rem;
+    margin: 2rem auto;
+    padding-left: 6rem;
+    font-size: 2rem;
+    position: relative;
+    color: #6b5555;
+
+    dt {
+        margin-bottom: .5rem;
+    }
+
+    dd {
+        margin: 0;
+        font-size: 1.5rem;
+    }
+
+    &.sorry:before {
+        content: ':(';
+        display: block;
+        position: absolute;
+        left: 2.5rem;
+        top: 0;
+        font-size: 3.4rem;
+        color: #ad9c9c;
+        text-shadow: 0rem 0rem 0.3rem rgba(0, 0, 0, 0.4);
+    }
+}

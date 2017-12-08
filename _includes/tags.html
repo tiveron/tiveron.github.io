@@ -1,0 +1,8 @@
+{% if site.tags.size > 0 %}
+    <dl>
+        <dt>tags</dt>
+        {% for tag in site.tags %}
+            <dd>{{ tag | first }}</dd><!--{% unless forloop.last %},{% endunless %} -->
+        {% endfor %}
+    </dl>
+{% endif %}

@@ -1,12 +1,14 @@
 name: Tiveron
 markdown: redcarpet
 highlighter: rouge
+sass:
+    sass_dir: css
 
 # Personal Details
-name:		Tiveron
+name:       Tiveron
 author:     Thiago Tiveron Favaro
-email:		thiagotf9@gmail.com
-github:		http://github.com/tiveron
-linkedin:	http://linkedin.com/in/tiveron/
-twitter:	http://twitter.com/tiveron
-instagram:	"@tiveron"
+email:      thiagotf9@gmail.com
+github:     http://github.com/tiveron
+twitter:    http://twitter.com/tiveron
+linkedin:   http://linkedin.com/in/tiveron/
+instagram:  "@tiveron"
