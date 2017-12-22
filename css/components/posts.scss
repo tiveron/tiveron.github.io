@@ -2,9 +2,9 @@
 
     display: flex;
     flex-flow: wrap;
+    margin-top: 3rem;
 
     dt {
-        //flex-grow: 1;
         width: 15%;
         padding-top: .3rem;
         text-align: center;
@@ -48,16 +48,65 @@
         }
     }
     dd {
-        //flex-grow: 1;
-        font-size: 1.8rem;
+        font-size: 1.6rem;
         margin: 0;
         width: 85%;
         margin-bottom: 1rem;
+        
+        a {
+            position: relative;
+            left: 0;
+
+            &:hover {
+                left: .6rem;
+            }
+        }
     }
 
     p {
+        margin: 0;
+    }
+
+    p + p {
         font-size: .85rem;
         line-height: 1.3rem;
         color: #777;
+        margin-top: 0.2rem;
     }
+}
+
+#post {
+
+    h2 {
+        font-size: 1.6rem;
+        margin: 2rem 0 3rem;
+        text-align: center;
+    }
+
+    p {
+        font-size: 1.2rem;
+        line-height: 1.7rem;
+    }
+
+    .back {
+        margin: 2rem 0 1.5rem;
+        display: block;
+    }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+    
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+    #post h2 {
+        text-align: left;
+        font-size: 2rem;
+    }    
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
 }

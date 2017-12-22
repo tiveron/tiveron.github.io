@@ -2,7 +2,11 @@
 layout: base
 ---
 <section id="post">
-    <a href="/">Back to main page...</a>
     <h2>{{page.title}}</h2>
-    {{ content }}
+
+    <div id="post-content">
+        {{ content }}
+    </div>
+
+    <a href="/" class="back">Back to main page...</a>
 </section>

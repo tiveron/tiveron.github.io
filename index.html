@@ -3,10 +3,14 @@ layout: page
 title: tiveron - blog
 ---
 
+{% include bio.html %}
+
 {% if site.posts.size > 0 %}
     {% include list.html %}
+    {% comment %} 
     {% include categories.html %}
     {% include tags.html %}
+    {% endcomment %} 
 {% else %}
     <dl class="empty-state sorry">
         <dt>Sorry...</dt>
